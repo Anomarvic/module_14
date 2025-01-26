@@ -11,7 +11,7 @@ from crud_functions import *
 initiate_db()
 prod_db()
 
-api = '7917373357:AAHnfoU5ZrSqtmlbx0iEWwMAon_aDQZ7rfU'
+api = ''
 bot = Bot(token= api)
 dp = Dispatcher(bot, storage= MemoryStorage())
 
